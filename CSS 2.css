@@ -1,0 +1,90 @@
+*{
+    background-color: rgb(238, 238, 238) ;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+}
+
+header{
+    text-align: center;
+    padding: 2% 0;
+}
+
+header h1{
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+}
+
+header h2{
+    font-size: 1.54rem;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 1rem;
+}
+
+header p {
+    font-weight: 400;
+    font-size: 0.7rem;
+    color: hsl(229, 6%, 66%);
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.card{
+    box-shadow: 2px 5px 1px 2px rgb(203, 203, 203);
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 2rem;
+    max-width: 18rem;
+}
+
+.card.aqua{
+    background-color: white;
+    border-top: 5px solid aqua;
+    margin: 0;
+}
+.card.red{
+    background-color: white;
+    border-top: 5px solid red;
+}
+.card.orange{
+    background-color: white;
+    border-top: 5px solid orange;
+}
+.card.blue{
+    background-color: white;
+    border-top: 5px solid blue;
+    margin: 0;
+}
+
+.card img{
+    display: block;
+    margin-left: auto;
+    width: 3rem;
+    margin-top: 3rem;
+}
+
+.card h2{
+    background-color: white;
+    color: rgb(85, 81, 81);
+    font-size: 1.1rem;
+}
+
+.card p{
+    background-color: white;
+    color: rgb(180, 178, 178);
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+}
